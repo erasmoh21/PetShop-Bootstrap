@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid row mx-0 bg-dark">
+            <div class="col-8">
+                <p class="text-light mb-0">Grandes ofertas en comederos</p>
+            </div>
+
+            <div class="col-4 row justify-content-end">
+                <select class="col-2 bg-dark text-light border-0">
+                    <option selected value="español">Español</option>
+                    <option value="ingles">Ingles</option>
+                    <option value="frances">Frances</option>
+                    <option value="italiano">Italiano</option>
+                </select>
+
+                <select class="col-2 bg-dark text-light border-0 btn btn-outline-dark py-0">
+                    <option selected value="pesoArgentino">ARG$</option>
+                    <option value="dolarAmericano">USD$</option>
+                    <option value="euro">EUR€</option>
+                    <option value="pesoColombiano">COP$</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container-fluid row mx-0 align-items-center p-3" style="background-color:#F0A83E;">
+            <div class="col-8 d-flex align-items-center"> 
+                <div class=" mx-0 px-0"><img src="./img/icono-header-gato.svg" alt=""></div>
+                <div class=" mx-0 px-0">
+                    <p class="mb-0 text-light h2">Front<span class="text-dark">Cat&Dog</span></p>
+                </div>
+                <div class="mx-0 px-0"><img src="./img/icono-header-perro.svg" alt=""></div>
+            </div>
+
+            <div class="col-4">
+                <nav>
+                    <a href="#" class="text-light text-decoration-none pe-3">Categorias</a>
+                    <a href="#" class="text-light text-decoration-none pe-3">Pets</a>
+                    <a href="#" class="text-light text-decoration-none pe-3">Nosotros</a>
+                    <a href="#" class="text-light text-decoration-none pe-3">Contactanos</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <figure class="position-relative">
+                <img src="./img/bowl-and-pet-daities-on-green-background 1.png" class="w-100">
+                <figcaption class="position-absolute top-50 w-100">
+                    <div class="d-flex justify-content-end me-5 text-center">
+                        <div>
+                            <p class="h3 fw-normal bg-light p-2 rounded">¡Es un placer tenerte aqui!</p>
+                            <p class="h5 fw-normal">¡Comederos en descuento!</p>
+                            <div class="d-flex justify-content-center w-100">
+                                <div>
+                                    <p class="fw-bolder text-light rounded w-100 py-2 px-4" style="background-color: #F0A83E;">Comederos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <div>
+                <div >
+                    <figure class="text-center">
+                        <img src="./img/patita.svg" alt="pata de perro" >
+                    </figure>
+                    <div class="text-center"><p>Productos Destacados</p></div>
+                    <div class="text-center"><p>Comederos <span>-</span> Accesorios <span>-</span> Comida</p></div>
+                </div>
+
+                <div class="container row justify-content-center m-auto px-0">
+                    <div class="col-12 col-md-4">
+                        <figure>
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="./img/churrasquito.png">
+                            </div>
+                            <figcaption>
+                                <p class="text-center mb-0">Juguete Churrasquito</p>
+                                <p class="text-center">$150</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <figure>
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="./img/comedero.png" alt="">
+                            </div>
+                            <figcaption>
+                                <p class="text-center mb-0">Comedero Para Perro</p>
+                                <p class="text-center">$250</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <figure>
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="./img/Huesito.png" alt="">
+                            </div>
+                            <figcaption>
+                                <p class="text-center mb-0">Juguete Huesito</p>
+                                <p class="text-center">$650</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <form>
+                <fieldset class="container">
+                    <legend class="text-center">Contáctanos</legend>
+
+                    <div class="container row-col-3">
+                        <div class="w-100 container row justify-content-center mb-2">
+                            <input type="text" placeholder="Nombre y Apellido" class="w-50 rounded border border-white">
+                        </div>
+                        <div class="w-100 container row justify-content-center mb-2">
+                            <input type="email" placeholder="Ingresa tu correo electronico" class="w-50 rounded border border-white">
+                        </div>
+                        <div class="w-100 container row justify-content-center mb-2">
+                            <input type="tel" placeholder="Télefono" class="w-50 rounded border border-white bg-dark">
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <input type="reset" value="Resetear" class="me-4 rounded">
+                        <input type="submit" class="btn btn-danger" class="rounded btn btn-warning">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <div>
+                <figure><img src="./img/Group.svg" alt=""></figure>
+                <div><p>Suscribete para mas novedades</p></div>
+            </div>
+            <div>
+                <input type="email" placeholder="Ingresa tu correo electronico">
+                <input type="submit" value="Suscribirme">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div>
+                    <figure><img src="./img/Icono.svg" alt=""></figure>
+                    <div>
+                        <p>Localidad</p>
+                        <p>Calle-Provincia</p>
+                    </div>
+                </div>
+                <div>
+                    <figure><img src="./img/Icono-telefono.svg" alt=""></figure>
+                    <div>
+                        <p>Télefono</p>
+                        <p>Número de télefono</p>
+                    </div>
+                </div>
+                <div>
+                    <figure><img src="./img/Icono-correo.svg" alt=""></figure>
+                    <div>
+                        <p>Correo Eléctronico</p>
+                        <p>Direccion de correo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <figure><img src="./img/icono-header-gato.svg" alt=""></figure>
+                    <p class="text-light">Front<span>Cat&Dog</span></p>
+                    <figure><img src="./img/icono-header-perro.svg" alt=""></figure>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p>Todos los derechos reservados a Front End</p>
+        </div>
+    </footer>
+
+</body>
+</html>
